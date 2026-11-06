@@ -137,6 +137,9 @@ $env:DSH_OCCLUSION_TARGET_PID = "18248"                 # 可选：盯着别的�
 2. 删掉 `node_modules\dsh-occlusion-throttle` 这个链接；
 3. 重启 DSH。
 
+> 发布到 npm / dsh 市场的完整步骤见 [PUBLISHING.md](./PUBLISHING.md)。
+> 当前仓库只是暂存点：**尚未发布到 npm，也未提交市场**。
+
 ## 兼容性
 
 ### 依赖的接口与稳定性
