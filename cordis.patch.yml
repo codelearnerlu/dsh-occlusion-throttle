@@ -1,0 +1,5 @@
+# dsh-occlusion-throttle —— bundle patch
+# 只插入一行条目；具体逻辑在 index.js（宿主）与 client.js（前端）。
+- insert:
+    - id: occlusion-throttle
+      name: dsh-occlusion-throttle

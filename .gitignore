@@ -1,0 +1,13 @@
+# 构建产物（由 npm run build:watcher 生成，不进仓库）
+occlusion-watcher.exe
+
+# 运行期文件
+*.log
+occlusion-throttle.json
+
+# 依赖与系统
+node_modules/
+.DS_Store
+Thumbs.db
+*.bak
+*.bak-*

@@ -1,0 +1,68 @@
+{
+  "name": "dsh-occlusion-throttle",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "被其他窗口遮挡时暂停 DSH 桌面端的动画渲染（rAF + CSS 动画），重新可见立即恢复。Pause the DSH desktop renderer while its window is fully occluded.",
+  "license": "MIT",
+  "author": "dsh-occlusion-throttle contributors",
+  "icon": "./icon.png",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REPLACE-WITH-YOUR-USER/dsh-occlusion-throttle.git"
+  },
+  "homepage": "https://github.com/REPLACE-WITH-YOUR-USER/dsh-occlusion-throttle#readme",
+  "bugs": {
+    "url": "https://github.com/REPLACE-WITH-YOUR-USER/dsh-occlusion-throttle/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "harness",
+    "desktop",
+    "performance",
+    "occlusion",
+    "throttle",
+    "windows"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.png",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "occlusion-watcher.ps1",
+    "occlusion-watcher.cs",
+    "watcher-exe.cs",
+    "cordis.patch.yml",
+    "icon.png",
+    "locale/*.json",
+    "scripts/*.mjs",
+    "selftest.mjs",
+    "client-selftest.mjs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": "^0.2.1-rc.2"
+  },
+  "scripts": {
+    "selftest": "node selftest.mjs && node client-selftest.mjs",
+    "build:watcher": "node scripts/build-watcher.mjs"
+  },
+  "os": [
+    "win32"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

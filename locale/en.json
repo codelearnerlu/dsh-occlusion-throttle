@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Occlusion throttle",
+    "description": "Pause DSH animation rendering (requestAnimationFrame and CSS animations) while the window is fully occluded by another window, and resume the moment it becomes visible. Measured: the renderer keeps using 0.6-1.0 CPU cores while a fullscreen game covers it."
+  }
+}
