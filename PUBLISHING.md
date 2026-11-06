@@ -116,7 +116,7 @@ Add codelearnerlu/dsh-occlusion-throttle: pause rendering while occluded
 
 ## 4. 可选加分项
 
-- README 里放设置页截图（市场没有策展截图时会从 README 抽取），建议放 `docs/screenshots/settings.png`。
+- ✅ 设置页截图已放 `docs/screenshots/settings.png`，README 顶部引用了它（市场没有策展截图时会从 README 抽取）。
 - 仓库 About 已填 Description 与 Topics（dsh / dsh-plugin / deepseek-harness / performance / windows / electron）。
 - `engines.dsh` 目前是 `^0.2.1-rc.2`；DSH 升级并验证后再放宽。
 

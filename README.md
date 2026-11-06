@@ -12,6 +12,12 @@ until the window is visible again. Cost: ~0.12% of one core, 15.7 MB. Windows on
 
 【中文说明见下，安装 / 验证 / 兼容性 / 发布清单都在后面。】
 
+## 截图
+
+设置 → 「遮挡降频」：
+
+![设置页：实时状态、启用开关、轮询间隔、最近事件](docs/screenshots/settings.png)
+
 ## 为什么需要它
 
 实测（本机，2026-11-05/06）：

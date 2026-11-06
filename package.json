@@ -39,6 +39,7 @@
     "cordis.patch.yml",
     "icon.png",
     "locale/*.json",
+    "docs/screenshots/*.png",
     "scripts/*.mjs",
     "selftest.mjs",
     "client-selftest.mjs",
