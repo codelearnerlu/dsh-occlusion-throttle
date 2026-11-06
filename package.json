@@ -8,11 +8,11 @@
   "icon": "./icon.png",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/REPLACE-WITH-YOUR-USER/dsh-occlusion-throttle.git"
+    "url": "git+https://github.com/codelearnerlu/dsh-occlusion-throttle.git"
   },
-  "homepage": "https://github.com/REPLACE-WITH-YOUR-USER/dsh-occlusion-throttle#readme",
+  "homepage": "https://github.com/codelearnerlu/dsh-occlusion-throttle#readme",
   "bugs": {
-    "url": "https://github.com/REPLACE-WITH-YOUR-USER/dsh-occlusion-throttle/issues"
+    "url": "https://github.com/codelearnerlu/dsh-occlusion-throttle/issues"
   },
   "keywords": [
     "dsh-plugin",
